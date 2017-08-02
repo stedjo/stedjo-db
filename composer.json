@@ -1,0 +1,26 @@
+{
+    "name": "stedjo/stedjo-db",
+    "description": "Database helper",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Stefan Djokic",
+            "email": "hello@stefandjokic.com"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "zendframework/zend-db": "^2.8",
+        "zendframework/zend-servicemanager": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "SD\\": "src/SD/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SD\\": "test/unit-test/SD/"
+        }
+    }
+}
